@@ -1,0 +1,27 @@
+{
+  "name": "sync-curl",
+  "version": "1.0.5",
+  "description": "可以同步执行request请求",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxulei/sync-curl.git"
+  },
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "http-response-object": "^1.0.1",
+    "spawn-sync": "^1.0.1",
+    "then-request": "^2.0.1",
+    "request": "2.64.0",
+    "iconv-lite": "0.4.13"
+  },
+  "author": "liuxulei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuxulei/sync-curl/issues"
+  },
+  "homepage": "https://github.com/liuxulei/sync-curl#readme"
+}
