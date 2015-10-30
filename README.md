@@ -19,10 +19,23 @@ e.g.
 
 ```js
 var request = require('sync-curl');
-var res = request('GET', 'url');
+var res = request('GET', 'url', {encode:'utf8'});
 var body = res.body.toString();
 console.log(body);
 ```
+
+## Param
+```
+method: request type
+url: request link
+
+options:
+[encode] 目标地址的编码，输出会转换为utf8
+```
+
+## Update
+2015-10-30
+增加对utf-8和gbk编码的支持，通过对options参数的设置进行区分。
 
 ## License
 
